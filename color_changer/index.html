@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <style>
+        button{
+            width: 100px;
+            height: 50px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        #red{
+            background-color: red;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        #green{
+            background-color:green;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        #blue{
+            background-color: blue;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        #orange{
+            background-color: orange;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        #random{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1> Color Changer </h1>
+    <button id="red" onclick="change_color('red')">red</button>
+    <button id="green" onclick="change_color('green')">green</button>
+    <button id="blue" onclick="change_color('blue')">blue</button>
+    <button id="orange" onclick="change_color('orange')">orange</button>
+    <button id="random" onclick="ran_color()">random</button>
+    <script src="index.js"></script>
+</body>
+</html>
